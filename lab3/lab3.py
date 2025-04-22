@@ -100,9 +100,9 @@ with col2:
         (dataframe["Year"].between(*st.session_state.year_range))
         ][["Year", "Week", st.session_state.index, "area_id"]]
 
-    if st.session_state.sort_asc:
+    if st.session_state.sort_asc: # зростання
         filtered = filtered.sort_values(by=st.session_state.index, ascending=True)
-    elif st.session_state.sort_desc:
+    elif st.session_state.sort_desc: # спадання
         filtered = filtered.sort_values(by=st.session_state.index, ascending=False)
 
     with tab1:

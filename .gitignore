@@ -3,3 +3,5 @@ venv/
 .vscode/
 *.ipynb_checkpoints
 lab2/CSVs
+*.txt
+*.zip
