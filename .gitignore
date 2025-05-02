@@ -5,3 +5,6 @@ venv/
 lab2/CSVs
 *.txt
 *.zip
+*.csv
+*.xlsx
+lab4/data
