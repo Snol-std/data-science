@@ -71,7 +71,6 @@ if st.button("Скинути фільтри"):
     st.rerun()
 
 col1, col2 = st.columns([1, 3])
-
 with col1:
     st.session_state.index = st.selectbox("Індекс:", ["VCI", "TCI", "VHI"],
                                           index=["VCI", "TCI", "VHI"].index(st.session_state.index))
